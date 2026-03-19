@@ -3,7 +3,7 @@ package com.example.startupengine.data.api
 import com.google.gson.annotations.SerializedName
 
 data class ChatRequest(
-    @SerializedName("model") val model: String = "qwen3:8b",
+    @SerializedName("model") val model: String = "qwen3.5:4b",
     @SerializedName("messages") val messages: List<ChatMessage>,
     @SerializedName("max_tokens") val maxTokens: Int = 512,
     @SerializedName("temperature") val temperature: Double = 0.45,

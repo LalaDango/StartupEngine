@@ -21,7 +21,7 @@ class SettingsRepository(private val context: Context) {
         private val KEY_CONTEXT_WINDOW = intPreferencesKey("context_window_size")
 
         const val DEFAULT_BASE_URL = "http://192.168.1.1:52625"
-        const val DEFAULT_MODEL_NAME = "qwen3:8b"
+        const val DEFAULT_MODEL_NAME = "qwen3.5:4b"
         const val DEFAULT_CONTEXT_WINDOW = 8192
     }
 
